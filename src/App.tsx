@@ -1,10 +1,13 @@
+// COMPONENT
+import { RollDice } from './components/RollDice'
+
 // STYLE
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Dice App</h1>
+      <RollDice />
     </div>
   );
 }
