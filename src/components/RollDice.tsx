@@ -30,8 +30,8 @@ export function RollDice() {
   return (
     <div className="RollDice">
       <div className="RollDice-items">
-        <Die side={dieOne} />
-        <Die side={dieTwo} />
+        <Die side={dieOne} rolling={rolling} />
+        <Die side={dieTwo} rolling={rolling} />
       </div>
       <button onClick={roll} disabled={rolling}>
         { rolling ? 'Rolling...' : 'Roll!' }
